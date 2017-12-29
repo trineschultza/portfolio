@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="315.62" viewBox="0 0 300 315.62">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #a09ec6;
+      }
+
+      .cls-2 {
+        font-size: 274px;
+        fill: #e0deff;
+        font-family: GillSansMT, Gill Sans MT;
+      }
+
+      .cls-3 {
+        font-size: 211px;
+        fill: #1e1e2d;
+        font-family: Georgia, Georgia;
+        opacity: 0.5;
+      }
+    </style>
+  </defs>
+  <title>tslogo</title>
+  <g id="Cirkel">
+    <circle class="cls-1" cx="150" cy="150" r="150"/>
+  </g>
+  <g id="T">
+    <text class="cls-2" transform="translate(69.96 231.19)">T</text>
+  </g>
+  <g id="S">
+    <text class="cls-3" transform="translate(93.16 251.64)">S</text>
+  </g>
+</svg>
