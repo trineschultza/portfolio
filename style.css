@@ -3,6 +3,8 @@ body {
     font-family: "HelveticaNeue-Light", sans-serif;
 }
 
+/* ----- NAVIGATION ------*/
+
 ul {
     margin: 0;
     padding: 0;
@@ -41,3 +43,23 @@ li a:hover:not(.active) {
 li a:hover {
     background-color: rgba(30, 30, 45, 0.5);
 }
+
+/* -------- NAVIGATION SLUT ---------*/
+
+/* --------- LOGO OG FORSIDE -------*/
+
+#logo img {
+    display: block;
+    margin: auto;
+    width: 25vw;
+
+}
+
+#logo h1 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 4em;
+    color: #1e1e2d;
+    text-align: center;
+}
+
+/* --------- LOGO OG FORSIDE SLUT -------*/
