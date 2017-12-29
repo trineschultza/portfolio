@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    font-family: "HelveticaNeue-Light", sans-serif;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: #a09ec6;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+li {
+    display: inline;
+    float: left;
+
+}
+
+li a {
+    display: block;
+    color: #e0deff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "HelveticaNeue-Light", sans-serif;
+    font-size: 18px;
+}
+
+li a:hover:not(.active) {
+    background-color: rgba(30, 30, 45, 0.5);
+}
+
+.active {
+    background-color: #000000;
+}
+
+li a:hover {
+    background-color: rgba(30, 30, 45, 0.5);
+}
