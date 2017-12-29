@@ -63,3 +63,13 @@ li a:hover {
 }
 
 /* --------- LOGO OG FORSIDE SLUT -------*/
+
+/* ------------- OM MIG ----------*/
+
+#om img {
+    border-radius: 50%;
+    width: 25vw;
+    margin: auto;
+}
+
+/* ------------- OM MIG SLUT -----------*/
