@@ -3,6 +3,41 @@ body {
     font-family: "HelveticaNeue-Light", sans-serif;
 }
 
+/*--------- fonts --------*/
+
+h1 {
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 3.4em;
+    color: #1e1e2d;
+    text-align: center;
+
+}
+
+h2 {
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 3em;
+    color: #1e1e2d;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 1.9em;
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+}
+
+p {
+    color: #e0deff;
+    text-align: left;
+    font-family: "HelveticaNeue-Light", sans-serif;
+    font-size: 18px;
+    padding-left: 5px;
+
+}
+
+
 /* ----- NAVIGATION ------*/
 
 ul {
@@ -45,11 +80,18 @@ li a:hover {
     background-color: rgba(30, 30, 45, 0.5);
 }
 
+@media screen and (max-width: 600px) {
+    li a,
+    li {
+        float: right;
+    }
+}
+
 /* -------- NAVIGATION SLUT ---------*/
 
 /* --------- LOGO OG FORSIDE -------*/
 
-#logo img {
+#forside img {
     display: block;
     margin: auto;
     width: 25vw;
@@ -57,11 +99,11 @@ li a:hover {
 
 }
 
-#logo h1 {
-    font-family: 'Nothing You Could Do', cursive;
-    font-size: 4em;
-    color: #1e1e2d;
+.overskrift {
+    width: 100%;
+    height: auto;
     text-align: center;
+
 }
 
 /* --------- LOGO OG FORSIDE SLUT -------*/
@@ -211,37 +253,27 @@ li a:hover {
 
 /* ------------- OM MIG ----------*/
 
+#om {
+
+    width: 100%;
+}
+
+.omtrine {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-basis: 300px;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
 #om img {
     border-radius: 50%;
     width: 25vw;
     margin: auto;
     display: block;
     padding-top: 5px;
-
 }
 
-#om h2 {
-    font-family: 'Nothing You Could Do', cursive;
-    font-size: 3em;
-    color: #1e1e2d;
-    text-align: center;
-}
-
-#om h3 {
-    font-family: 'Nothing You Could Do', cursive;
-    font-size: 1.9em;
-    color: #ffffff;
-    text-align: center;
-    margin: 0;
-}
-
-#om p {
-    color: #e0deff;
-    text-align: left;
-    font-family: "HelveticaNeue-Light", sans-serif;
-    font-size: 18px;
-    padding-left: 5px;
-
-}
 
 /* ------------- OM MIG SLUT -----------*/
